@@ -1,0 +1,5 @@
+browser: chrome
+searchQuery: barbie
+searchQueryNoResult: asfdasdffasd
+waitTime: 4500
+sleepTime: 9000

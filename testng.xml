@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UI tests">
+<test name="MarketPlaceTest">
+    <classes>
+        <class name="tests.UIMainPageTest">
+            <methods>
+                <include name="checkMainPageElements"></include>
+            </methods>
+        </class>
+        <class name="tests.UISearchTest">
+            <methods>
+                <include name="searchResultEmpty"></include>
+                <include name="searchResultNotEmpty"></include>
+            </methods>
+        </class>
+
+    </classes>
+</test>
+</suite>

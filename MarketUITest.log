@@ -1,0 +1,54 @@
+2022-05-09 10:41:16 ERROR MainTest:35 - Something went wrong while browser openingjava.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because "browser.name" is null
+2022-05-09 11:02:45 ERROR MainTest:31 - Something went wrong while browser openingjava.lang.NullPointerException
+2022-05-09 11:47:12 INFO  UITest:20 - Check main page elements
+2022-05-09 11:50:03 INFO  UISearchTest:21 - click in search box
+2022-05-09 11:50:19 INFO  UISearchTest:23 - insert search text
+2022-05-09 11:50:19 INFO  UISearchTest:25 - submit
+2022-05-09 11:50:44 INFO  UITest:20 - Check main page elements
+2022-05-09 11:50:45 INFO  UISearchTest:21 - click in search box
+2022-05-09 11:50:51 INFO  UISearchTest:23 - insert search text
+2022-05-09 11:50:51 INFO  UISearchTest:25 - submit
+2022-05-09 11:52:03 INFO  UITest:20 - Check main page elements
+2022-05-09 11:52:04 INFO  UISearchTest:21 - click in search box
+2022-05-09 11:52:04 INFO  UISearchTest:23 - insert search text
+2022-05-09 11:52:04 INFO  UISearchTest:25 - submit
+2022-05-09 12:08:33 INFO  UISearchTest:22 - run search
+2022-05-09 13:18:46 INFO  UISearchTest:22 - run search, result should be empty
+2022-05-09 13:21:35 INFO  UISearchTest:22 - run search, result should be empty
+2022-05-09 13:25:43 INFO  UISearchTest:22 - run search, result should be empty
+2022-05-09 13:26:45 INFO  UISearchTest:22 - run search, result should be empty
+2022-05-09 13:42:37 INFO  UISearchTest:22 - run search, result should be empty, page should contain some text
+2022-05-09 13:42:47 INFO  UISearchTest:31 - run search, result should not be empty
+2022-05-09 13:44:19 INFO  UISearchTest:22 - run search, result should be empty, page should contain some text
+2022-05-09 13:44:29 INFO  UISearchTest:32 - run search, result should not be empty
+2022-05-09 13:45:40 INFO  UISearchTest:22 - run search, result should be empty, page should contain some text
+2022-05-09 13:45:50 INFO  UISearchTest:32 - run search, result should not be empty
+2022-05-09 13:46:36 INFO  UISearchTest:22 - run search, result should be empty, page should contain some text
+2022-05-09 13:46:46 INFO  UISearchTest:32 - run search, result should not be empty
+2022-05-09 14:26:20 INFO  UITest:19 - Check main page elements
+2022-05-09 14:26:20 INFO  UISearchTest:22 - run search, result should be empty, page should contain some text
+2022-05-09 14:26:30 INFO  UISearchTest:32 - run search, result should not be empty
+2022-05-09 14:27:32 INFO  UITest:19 - Check main page elements
+2022-05-09 14:27:33 INFO  UISearchTest:22 - run search, result should be empty, page should contain some text
+2022-05-09 14:27:42 INFO  UISearchTest:32 - run search, result should not be empty
+2022-05-09 14:37:09 INFO  UITest:19 - Check main page elements
+2022-05-09 14:37:10 INFO  UISearchTest:22 - run search, result should be empty, page should contain some text
+2022-05-09 14:37:20 INFO  UISearchTest:32 - run search, result should not be empty
+2022-05-09 14:39:39 INFO  UITest:19 - Check main page elements
+2022-05-09 14:39:40 INFO  UISearchTest:22 - run search, result should be empty, page should contain some text
+2022-05-09 14:39:50 INFO  UISearchTest:32 - run search, result should not be empty
+2022-05-09 14:50:25 INFO  UITest:19 - Check main page elements
+2022-05-09 14:50:26 INFO  UISearchTest:22 - run search, result should be empty, page should contain some text
+2022-05-09 14:50:35 INFO  UISearchTest:32 - run search, result should not be empty
+2022-05-09 14:52:41 INFO  UITest:19 - Check main page elements
+2022-05-09 14:52:41 INFO  UISearchTest:22 - run search, result should be empty, page should contain some text
+2022-05-09 14:52:50 INFO  UISearchTest:32 - run search, result should not be empty
+2022-05-09 15:03:04 INFO  UITest:19 - Check main page elements
+2022-05-09 15:03:05 INFO  UISearchTest:22 - run search, result should be empty, page should contain some text
+2022-05-09 15:03:15 INFO  UISearchTest:32 - run search, result should not be empty
+2022-05-09 15:34:09 INFO  UITest:20 - Check main page elements
+2022-05-09 15:34:09 INFO  UISearchTest:25 - run search, result should be empty, page should contain some text
+2022-05-09 15:34:19 INFO  UISearchTest:35 - run search, result should not be empty
+2022-05-09 15:42:58 INFO  UITest:20 - Check main page elements
+2022-05-09 15:42:59 INFO  UISearchTest:25 - run search, result should be empty, page should contain some text
+2022-05-09 15:43:09 INFO  UISearchTest:35 - run search, result should not be empty
