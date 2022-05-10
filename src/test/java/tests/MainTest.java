@@ -2,14 +2,15 @@ package tests;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
-import config.Settings;
+import com.codeborne.selenide.logevents.SelenideLogger;
 import config.YamlPropertiesReader;
 import org.apache.log4j.Logger;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 
 
-    public class MainTest {
+public class MainTest {
         Logger log = Logger.getLogger(tests.MainTest.class);
         YamlPropertiesReader yamlPropertiesReader = new YamlPropertiesReader();
 
@@ -24,6 +25,7 @@ import org.testng.annotations.BeforeSuite;
             Configuration.pageLoadTimeout = 90000;
             Configuration.browserSize = "1600x700";
             Configuration.baseUrl="https://www.wildberries.ru";
+
 
           try {
                 Selenide.open("/");

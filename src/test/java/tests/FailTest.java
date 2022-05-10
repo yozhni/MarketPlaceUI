@@ -2,6 +2,7 @@ package tests;
 
 import io.qameta.allure.Feature;
 import jdk.jfr.Description;
+import org.apache.hc.core5.util.Asserts;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.ITestListener;
@@ -11,7 +12,7 @@ import pages.MainPage;
 import pages.SearchResultPage;
 
 @Feature("Failed test")
-public class FailTest{
+public class FailTest {
     Logger log = Logger.getLogger("UISearchTest");
 
     MainPage mainPage = new MainPage();
@@ -19,9 +20,8 @@ public class FailTest{
 
     @Test(priority = 5, description = "its test with planned test fail")
     @Description("planned test fail")
-    public void crashTest()
-    {
-
-        Assert.fail("Test crashed");
+    public void crashTest() {
+        log.info("Failed test");
+        Assert.assertEquals("Test is ok", "Test is not ok");
     }
 }

@@ -52,3 +52,10 @@
 2022-05-09 15:42:58 INFO  UITest:20 - Check main page elements
 2022-05-09 15:42:59 INFO  UISearchTest:25 - run search, result should be empty, page should contain some text
 2022-05-09 15:43:09 INFO  UISearchTest:35 - run search, result should not be empty
+2022-05-10 11:51:57 INFO  UITest:20 - Check main page elements
+2022-05-10 11:51:57 INFO  UISearchTest:25 - run search, result should be empty, page should contain some text
+2022-05-10 11:52:07 INFO  UISearchTest:35 - run search, result should not be empty
+2022-05-10 12:02:27 INFO  UISearchTest:24 - Failed test
+2022-05-10 12:02:27 INFO  UISearchTest:25 - run search, result should be empty, page should contain some text
+2022-05-10 12:02:37 INFO  UISearchTest:35 - run search, result should not be empty
+2022-05-10 12:02:47 INFO  UITest:20 - Check main page elements
